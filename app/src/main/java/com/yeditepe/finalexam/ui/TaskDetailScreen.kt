@@ -5,7 +5,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-
+import androidx.compose.material3.Text
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.text.font.FontWeight
 @Composable
 fun TaskDetailScreen(title: String) {
 
@@ -13,7 +15,7 @@ fun TaskDetailScreen(title: String) {
         // TODO 4: Display task title
         Text(
         text = title,
-        fontSize = 22.sp,
+        fontSize = 20.sp,
         fontWeight = FontWeight.Bold
     )
     }
