@@ -11,5 +11,10 @@ fun TaskDetailScreen(title: String) {
 
     Column(modifier = Modifier.padding(16.dp)) {
         // TODO 4: Display task title
+        Text(
+        text = title,
+        fontSize = 22.sp,
+        fontWeight = FontWeight.Bold
+    )
     }
 }
